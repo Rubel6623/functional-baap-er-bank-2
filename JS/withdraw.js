@@ -16,7 +16,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
     const balanceTotalElement=document.getElementById('balance-total');
     const previousTotalBalance= balanceTotalElement.innerText;
 
-    if(newWithdrawAmount>previousTotalBalance){
+    if( newWithdrawAmount > previousTotalBalance){
         alert('Baap er bank e eto taka nai');
         return;
     }
